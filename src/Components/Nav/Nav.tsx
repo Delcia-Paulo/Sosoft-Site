@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import iconNav from "./IconNav.png";
 export default function Nav() {
   return (
-    <div className="fixed w-full transparent-bg z-[50]  ">
+    <div className="fixed w-full scroll-smooth transparent-bg z-[50]  ">
       <nav className="flex  sm:items-center sm:justify-between  px-6  top-0  ">
        <Link to="/PaginaInicial">
         <img
@@ -19,12 +19,12 @@ export default function Nav() {
             Início
           </Link>
 
-          <Link
-            to="/Serviços"
+          <a
+          href="#Serviços"
             className="text-[#F19209] text-lg font-semibold hover:text-orange-400/75"
           >
             Serviços
-          </Link>
+          </a>
           <Link
             to="/Sobre"
             className="text-[#F19209] text-lg font-semibold hover:text-orange-400/75"
@@ -37,12 +37,12 @@ export default function Nav() {
           >
             Portfólio
           </Link>
-          <Link
-            to="/Contacto"
+          <a
+            href="#Contacto"
             className="text-[#F19209] text-lg font-semibold hover:text-orange-400/75"
           >
             Contacto
-          </Link>
+          </a>
           <button className=" hover:bg-orange-500/90 px-3 py-1 rounded-md bg-[#F19209] text-white hover:font-medium">
             Fale conosco
           </button>

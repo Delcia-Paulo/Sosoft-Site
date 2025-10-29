@@ -27,17 +27,25 @@ export default function Foother() {
             <ol className="space-y-2">
               <li className="hover:text-[#F19209]">Desenvolvimento</li>
 
-              <li className="hover:text-[#F19209]">Criação de cartões de identificação </li>
+              <li className="hover:text-[#F19209]">
+                Criação de cartões de identificação{" "}
+              </li>
             </ol>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Contacto</h3>
+            <h3
+              id="Contacto"
+              className=" text-lg font-semibold text-white mb-4"
+            >
+              Contacto
+            </h3>
             <ol className="space-y-2">
               <li className="hover:text-[#F19209]">Tel.: +244 942 031 240</li>
+              <li className="hover:text-[#F19209]">Email: geral@sosoft.ao</li>
 
               <li className="hover:text-[#F19209]">
-                Bairro Vila Alice No Instituto Politécnico Industrial de
-                Luanda – IPIL
+                Bairro Vila Alice No Instituto Politécnico Industrial de Luanda
+                – IPIL
               </li>
             </ol>
           </div>

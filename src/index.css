@@ -9,6 +9,9 @@ body{
   margin: 0 ;
   padding: 0 ;
 }
+html{
+  scroll-behavior: smooth;
+}
 .playwrite-de-grund-guides-regular {
   font-family: "Playwrite DE Grund Guides", cursive;
   font-weight: 400;
@@ -76,10 +79,10 @@ body{
 
 @keyframes moveArrow {
   0%, 100% {
-    transform: translateZ(0) scale(1);
+    transform: translateX(0) scale(1);
   }
   50% {
-    transform: translateZ(30px) scale(1.1);
+    transform: translateX(8px) scale(1.1);
   }
 }
 .animate-moveArrow {
