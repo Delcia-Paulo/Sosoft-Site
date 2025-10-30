@@ -7,9 +7,9 @@ export default function Serviços() {
     <div className="overflow-y-auto sm:ovverflow-none">
      
 
-      <div className="flex   justify-center items-center space-y-8 space-x-10 mt-10 mb-20 flex-col  ">
-        <div className=" flex flex-col sm:flex-row gap-4">
-          <div className="bg-white rounded-xl  p-8 shadow-xl  h-auto w-64 h-28 items-center justify-center flex-col flex ">
+      <div className="flex   justify-center items-center space-y-8 space-x-10 mt-10 mb-20 flex-col animate-fade-in   ">
+        <div className=" flex flex-col sm:flex-row  gap-4 ">
+          <div className="bg-white rounded-xl  p-8 shadow-xl  h-auto w-64  items-center  justify-center flex-col flex ">
             <h3 className=" flex flex-col font-bold items-center  justify-center pb-5">
              
                 <Code size={48} className="inline-block mb-4 h-10 text-[#2B8CAE] "></Code>
