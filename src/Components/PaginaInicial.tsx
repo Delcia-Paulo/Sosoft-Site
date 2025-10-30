@@ -28,15 +28,13 @@ export default function PaginaInicial() {
               <span className="text-[#F19209]">Futuro</span>
             </h1>
             <div className="drop-shadow-lg mb-10  text-white font-semibold text-xl mt-6 cursor-default">
-             
               <p>
-                
                 Sua satisfação é o nosso padrão, então vamos juntos automatizar,
                 crescer e evoluir
               </p>
             </div>
             <Link to="/Serviços">
-              <button className="bg-[#F19209] hover:hover:bg-[#F19209] hover:text-white text-xl  hover:p-2 hover:text-lg rounded-xl drop-shadow-lg text-white p-3">
+              <button className="bg-[#F19209]  hover:text-white text-xl  hover:text-lg rounded-xl drop-shadow-lg text-white transition-transform duration-700 p-3">
                 Explore Nossos Serviços
                 <img
                   src={arrow}
@@ -74,7 +72,7 @@ export default function PaginaInicial() {
             autoPlay
             muted
             loop
-            className=" sm:w-[64%] h-96 mt-20 mb-20 bg-cover bg-center mx-auto object-cover rounded-xl"
+            className="w-[100%] sm:w-[64%] h-96 mt-20 mb-20 bg-cover bg-center mx-auto object-cover rounded-xl"
           >
             <source src={videogif} type="video/mp4" />
           </video>

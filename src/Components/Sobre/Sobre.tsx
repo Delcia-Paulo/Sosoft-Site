@@ -16,7 +16,7 @@ export default function Sobre() {
           Sobre Nós
         </h1>
         <video
-          className="flex mx-auto w-[50%] h-[50vh] mb-20 shadow-xl border-t-2 border-l-2 border-r-2"
+          className="flex mx-auto sm:w-[50%] sm:h-[50vh] mb-20 shadow-xl border-t-2 border-l-2 border-r-2"
           loop
           muted
           autoPlay
@@ -25,7 +25,7 @@ export default function Sobre() {
           src=""
         ></video>
 
-        <div className="max-w-4xl justify-between flex gap-10 mx-auto text-center">
+        <div className="max-w-4xl text-start justify-between flex mb-20 mx-auto text-center">
           <div className="w-[200%] mb-28 h-64 bg-cover bg-center">
             {" "}
             <img src={foto1} alt="" />
@@ -44,11 +44,11 @@ export default function Sobre() {
             </p>
           </div>
         </div>
-        <div className="max-w-4xl justify-between flex gap-10 mx-auto text-center ">
+        <div className="max-w-4xl justify-between text-start flex mb-20 mx-auto text-center ">
           <div>
             <p className="text-lg font-medium">
               {" "}
-              O principal objetivo da{" "}
+              O principal objetivo da
               <span className="text-[#F19209] font-bold  ">SOSOFT</span> é
               impulsionar a transformação digital no sector da educação e da
               administração pública, criando soluções tecnológicas adaptadas à
@@ -71,12 +71,58 @@ export default function Sobre() {
                 inovação.
               </p>
             </div>
-            
           </div>
 
           <div className="w-[200%] h-64 bg-cover mb-20 bg-center">
             {" "}
             <img src={foto2} alt="" />
+          </div>
+        </div>
+        <div className="max-w-4xl justify-between flex  mx-auto text-center ">
+          <div className="w-[200%]  bg-cover  bg-center">
+            {" "}
+            <img src={foto3} alt="" />
+          </div>
+          <div className="w-[200%]  bg-cover  bg-center">
+            <p className="text-lg text-start font-medium">
+              A <span className="text-[#F19209] font-bold  ">SOSOFT </span>
+              nasceu da necessidade de tornar a gestão escolar e institucional
+              mais moderna e eficiente. Durante anos, muitos processos
+              administrativos e académicos em escolas e instituições públicas
+              eram realizados de forma manual e trabalhosa, gerando atrasos,
+              erros e desperdício de recursos.
+            </p>
+          </div>
+        </div>
+        <div className="max-w-4xl justify-between flex text-start mt-20 mx-auto text-center ">
+          <div className="w-[200%]  bg-cover  bg-center">
+            <p className="text-lg font-medium">
+              Os sistemas e plataformas da{" "}
+              <span className="text-[#F19209] font-bold  ">SOSOFT </span>são
+              destinados a instituições públicas e privadas que procuram inovar
+              e otimizar a sua gestão, em especial:
+            </p>
+            <div className="flex flex-col items-start mb-5 font-medium">
+              <p>✔️ Instituições de Ensino</p>
+              <p>✔️ Empresas e instituições públicas</p>
+              <p>✔️ Órgãos de administração central e local</p>
+              <p>✔️ Coordenadores, gestores e técnicos administrativos</p>
+            </div>
+            <p className="text-lg font-medium">
+              A <span className="text-[#F19209] font-bold  ">SOSOFT </span>é
+              hoje uma referência em soluções de gestão institucional em Angola,
+              promovendo um modelo de trabalho baseado na inovação,
+              transparência e eficiência. Mais do que uma empresa de tecnologia,
+              a <span className="text-[#F19209] font-bold  ">SOSOFT </span>é um
+              agente de transformação digital, comprometido em construir um
+              futuro mais moderno, automatizado e inteligente para as
+              instituições angolanas.
+            </p>
+          </div>
+
+          <div className="w-[100%] h-auto sm:w-[200%]  bg-cover  bg-center">
+            {" "}
+            <img src={foto4} alt="" className="h-96"/>
           </div>
         </div>
       </section>

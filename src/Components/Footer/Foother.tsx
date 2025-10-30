@@ -4,7 +4,9 @@ export default function Foother() {
       <footer className="bg-[#2B8CAE] text-white  w-full ">
         <div className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <h2 className="text-2xl font-semibold text-white cursor-default">Sosoft</h2>
+            <h2 className="text-2xl font-semibold text-white cursor-default">
+              Sosoft
+            </h2>
             <p className="text-white text-sm mt-4 leading-relaxed cursor-default">
               Soluções inovadoras que facilitam e contribuem para o nosso
               cotidiano
@@ -13,7 +15,9 @@ export default function Foother() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4 cursor-default">Navegação</h3>
+            <h3 className="text-lg font-semibold text-white mb-4 cursor-default">
+              Navegação
+            </h3>
             <ol className="space-y-2 ">
               <li className="hover:text-[#F19209] transition-colors duration-700 cursor-pointer">
                 Início
@@ -33,7 +37,9 @@ export default function Foother() {
             </ol>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4 cursor-default">Serviços</h3>
+            <h3 className="text-lg font-semibold text-white mb-4 cursor-default">
+              Serviços
+            </h3>
             <ol className="space-y-2">
               <li className="hover:text-[#F19209] transition-colors  duraction-700 cursor-pointer">
                 Desenvolvimento
