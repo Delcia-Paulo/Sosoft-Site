@@ -88,7 +88,7 @@ html {
     transform: translateX(0) scale(1);
   }
   50% {
-    transform: translateX(2px) scale(1.1);
+    transform: translateX(1px) scale(1.1);
   }
 }
 .animate-moveArrow {

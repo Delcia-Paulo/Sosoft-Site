@@ -14,13 +14,16 @@ export default function Nav() {
     <header className="fixed  w-full scroll-smooth  transparent-bg z-[50]  ">
     {/* Menu desktop */}
 
-      <nav className="flex  items-center justify-between px-6      ">
+      <nav className="flex h-14 sm:h-20 items-center justify-between px-6      ">
         <Link to="/PaginaInicial">
-          <img
+         <div className="flex gap-3 items-center text-xl sm:text-3xl text-[#F19209] font-semibold">
+           <img
             src={iconNav}
             alt="Sosoft Logo"
-            className="h-20 object-contain"
+            className="h-8 sm:h-12 object-contain"
           />
+          <p >Sosoft</p>
+         </div>
         </Link>
         <div className="hidden md:items-center md:flex gap-4 ">
           <Link
@@ -62,17 +65,17 @@ export default function Nav() {
         </div>
     {/* Botão de menu */}
 
-        <button className="md:hidden transition-transform duration-300" onClick={OpenMenu}>
+        <button className="md:hidden " onClick={OpenMenu}>
           <Menu size={28} className="text-[#F19209]" /> 
         </button>
       </nav>
     {/* Menu  mobile */}
 
       {menuOpen && (
-        <div className=" md:hidden fixed flex  flex-col items-start  px-6 bg-[#242e57] w-40 justify-start  right-0 top-0 h-screen shadow-lg z-50 transition-all duration-700  ">
+        <div className={` md:hidden fixed flex  flex-col items-start   px-6 bg-[#242e57] w-40 justify-start  right-0 top-0 h-screen shadow-lg z-50 ${menuOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"} `}>
 
             <div className="flex absolute right-4  top-4 ">
-              <X className="text-[#F19209] " onClick={CloseMenu}></X>
+              <X className="text-white " onClick={CloseMenu}></X>
             </div>
 
             <Link

@@ -4,12 +4,12 @@ import { Code, IdCard, Cpu, Cloud, Laptop, Wallpaper } from "lucide-react";
 
 export default function Serviços() {
   return (
-    <div className="overflow-y-auto sm:ovverflow-none">
+    <div className="overflow-y-auto sm:ovverflow-none md:overflow-y-auto scroll-smooth  ">
      
 
-      <div className="flex   justify-center items-center space-y-8 space-x-10 mt-10 mb-20 flex-col animate-fade-in   ">
+      <div className="flex   justify-center items-center space-y-8  space-x-10 mt-10 mb-20 flex-col    ">
         <div className=" flex flex-col sm:flex-row  gap-4 ">
-          <div className="bg-white rounded-xl  p-8 shadow-xl  h-auto w-64  items-center  justify-center flex-col flex ">
+          <div className="bg-white rounded-xl md:ml-96   p-8 shadow-xl  h-auto w-64  items-center  justify-center flex-col flex ">
             <h3 className=" flex flex-col font-bold items-center  justify-center pb-5">
              
                 <Code size={48} className="inline-block mb-4 h-10 text-[#2B8CAE] "></Code>
@@ -22,7 +22,7 @@ export default function Serviços() {
               Criação e manutenção de soluções digitais.
             </p>
           </div>
-          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 h-28 items-center justify-center flex-col h-auto   flex ">
+          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 items-center justify-center flex-col h-auto   flex ">
             <h3 className=" flex items-center flex-col  font-bold pb-5 justify-center">
               <IdCard size={48}  className="inline-block mb-4 h-10 text-[#2B8CAE] "></IdCard>
                
@@ -34,7 +34,7 @@ export default function Serviços() {
               QR que se auto identificam.
             </p>
           </div>
-          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 h-28 items-center justify-center flex-col h-auto   flex ">
+          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 items-center justify-center flex-col h-auto   flex ">
             <h3 className=" flex items-center flex-col font-bold pb-5 justify-center">
               <Cpu size={45} className="inline-block mb-4 h-10 text-[#2B8CAE]  "></Cpu>
                 
@@ -45,7 +45,7 @@ export default function Serviços() {
               Parte técnica e física da tecnologia.
             </p>
           </div>
-          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 h-28 items-center justify-center flex-col h-auto   flex ">
+          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 items-center justify-center flex-col h-auto   flex ">
             <h3 className=" flex items-center flex-col font-bold pb-5 justify-center">
               <Cloud size={48} className="inline-block mb-4 h-10 text-[#2B8CAE] "></Cloud>
               Serviços em nuvem
@@ -56,7 +56,7 @@ export default function Serviços() {
           </div>
         </div>
         <div className=" flex flex-col sm:flex-row  gap-4">
-          <div className="bg-white rounded-xl  p-8 shadow-xl  h-auto w-64 h-28 items-center justify-center flex-col flex ">
+          <div className="bg-white rounded-xl  p-8 shadow-xl  h-auto w-64  items-center justify-center flex-col flex ">
             <h3 className=" flex flex-col font-bold items-center  justify-center pb-5">
              <Laptop size={48} className="inline-block mb-4 h-10 text-[#2B8CAE] "></Laptop>
               Consultoria e Suporte Técnico
@@ -65,7 +65,7 @@ export default function Serviços() {
               Ajudar empresas e pessoas a resolver problemas de TI.
             </p>
           </div>
-          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 h-28 items-center justify-center flex-col h-auto   flex ">
+          <div className="bg-white  p-4 rounded-xl shadow-xl w-64 items-center justify-center flex-col h-auto   flex ">
             <h3 className=" flex items-center flex-col  font-bold pb-5 justify-center">
              <Wallpaper size={48} className="inline-block mb-4 h-10 text-[#2B8CAE] "></Wallpaper>
               Design e Identidade Visual
