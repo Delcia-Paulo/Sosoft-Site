@@ -1,6 +1,5 @@
 import Nav from "../Nav/Nav";
 import Foother from "../Footer/Foother";
-import foto1 from "./foto_sobre1.svg";
 import foto2 from "./foto_sobre2.svg";
 import foto3 from "./foto_sobre3.svg";
 import foto4 from "./foto_sobre4.svg";
@@ -8,7 +7,7 @@ import sosoft_sobre from "./sosoft_sobre.jpeg";
 
 export default function Sobre() {
   return (
-    <div className="overflow-y-auto">
+    <div className="">
       <Nav></Nav>
 
       <section className="min-h-screen bg-white text-gray-800 mt-32 p-8">
@@ -25,26 +24,8 @@ export default function Sobre() {
           src=""
         ></video>
 
-        <div className="max-w-4xl  text-start sm:justify-between flex sm:mb-20 sm:mx-auto ">
-          <div className="w-[200%] px-4 h-64 bg-cover bg-center">
-            {" "}
-            <img src={foto1} alt="" />
-          </div>
-          <div>
-            <p className="text-xs  sm:text-lg font-medium">
-              {" "}
-              <span className="text-[#F19209] font-bold ">A SOSOFT</span> –
-              Comércio e Prestação de Serviços, Lda é uma empresa tecnológica
-              angolana especializada no desenvolvimento de soluções digitais de
-              gestão institucional, com foco na modernização de instituições. A
-              SOSOFT actua como parceira estratégica na transformação digital de
-              organizações, oferecendo sistemas personalizados, seguros e
-              escaláveis, capazes de automatizar processos, reduzir burocracias
-              e melhorar a eficiência operacional.
-            </p>
-          </div>
-        </div>
-        <div className="max-w-4xl justify-between text-balance flex mb-20 mx-auto  ">
+        
+        <div className="max-w-4xl justify-between text-start flex mb-20 mx-auto">
           <div>
             <p className="text-xs sm:text-lg font-medium">
               {" "}
