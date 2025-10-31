@@ -11,7 +11,7 @@ export default function Nav() {
     setMenuOpen(false);
   }
   return (
-    <header className="fixed  w-full scroll-smooth  transparent-bg z-[50]  ">
+    <header className="fixed top-0  w-full scroll-smooth  transparent-bg z-[50]  ">
     {/* Menu desktop */}
 
       <nav className="flex h-14 sm:h-20 items-center justify-between px-6      ">
